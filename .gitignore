@@ -1,0 +1,44 @@
+# Dependencies and package manager caches
+node_modules/
+.npm/
+.pnpm-store/
+
+# Local environment and secrets (keep the configuration template)
+.env
+.env.*
+!.env.example
+!.env.*.example
+/middlewares/license.json
+
+# Authentication sessions and uploaded/generated media
+/sessions/
+/client/public/media/
+/client/public/meta-media/
+/client/public/recordings/
+/client/public/telegram/
+
+# Logs and runtime files
+logs/
+*.log
+*.pid
+*.pid.lock
+report.*.json
+
+# Test coverage, caches, and temporary output
+coverage/
+.nyc_output/
+.cache/
+tmp/
+temp/
+*.tsbuildinfo
+
+# Local editor and operating system files
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Keep client/public/static and other bundled frontend assets in Git:
+# the server serves these files directly without a frontend build step.

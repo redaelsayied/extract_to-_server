@@ -1,0 +1,10 @@
+allowBuilds:
+  '@firebase/util': set this to true or false
+  baileys: set this to true or false
+  bcrypt: set this to true or false
+  bufferutil: set this to true or false
+  es5-ext: set this to true or false
+  ffmpeg-static: set this to true or false
+  protobufjs: set this to true or false
+  sharp: set this to true or false
+  utf-8-validate: set this to true or false
